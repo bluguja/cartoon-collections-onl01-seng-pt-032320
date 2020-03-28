@@ -1,11 +1,11 @@
-def roll_call_dwarves(dwarf_names)# code an argument here
+def roll_call_dwarves(dwarf_names)
 
-  dwarf_names.each_with_index do | d_name , num |
-    puts "#{1 + num } #{d_name}"
+  dwarf_names.each_with_index do | d_name , index_num |
+    puts "#{1 + index_num } #{d_name}"# +1 to start @ the num 1
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet()
   # Your code here
 end
 
