@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarf_names)
 end
 
 
- def long_planteer_calls(long_planteer_calls) h
+ def long_planteer_calls(long_planteer_calls) 
   
     answer = false
     long_planteer_calls.each do |call|
