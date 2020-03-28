@@ -26,8 +26,12 @@ def summon_captain_planet(veggies)# code an argument here
      answer
  end
 
-def find_the_cheese(types_of_cheese)
-  types_of_cheese.find do |cheese|
+
+def find_the_cheese(cheese)
+ cheese_types = ["cheddar", "gouda", "camembert"]
+ cheese.find do |cheese|
     cheese_types.include?(cheese)
   end
 end
+
+
