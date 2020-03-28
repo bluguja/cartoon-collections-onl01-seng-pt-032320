@@ -6,11 +6,11 @@ def roll_call_dwarves(dwarf_names)
 end
 
 
-def summon_captain_planet(elements)# code an argument here
+def summon_captain_planet(elements)
   
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-    elements.collect do |call| 
-    call.capitalize + "!"
+    elements.collect do |call_elements| 
+    call_elements.capitalize + "!"
   end
 
  end
