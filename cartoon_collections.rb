@@ -6,6 +6,17 @@ def roll_call_dwarves(dwarf_names)
 end
 
 
+def summon_captain_planet(veggies)# code an argument here
+  
+  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+    veggies.collect do |call| 
+    call.capitalize + "!"
+  end
+
+# end
+
+
+
  def long_planteer_calls(long_planteer_calls) 
   
     answer = false
