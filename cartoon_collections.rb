@@ -15,18 +15,16 @@ def summon_captain_planet(veggies)# code an argument here
 
  end
 
- def long_planteer_calls(array_calls) 
-  
-    answer = false
-    
-    array_calls.each { |call|
-    if call.length > 4}
-    
-     answer = true
-      
+  def long_planteer_calls(long_planteer_calls)# code an argument here
+  # Your code here
+   answer = false
+   long_planteer_calls.each do |call|
+     if call.length > 4
+       answer = true
     end
-    answer
-end
+   end
+     answer
+ end
 
 def find_the_cheese(cheese_arr)
   # the array below is here to help
