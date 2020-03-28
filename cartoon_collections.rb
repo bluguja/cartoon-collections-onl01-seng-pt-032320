@@ -20,7 +20,7 @@ def summon_captain_planet(veggies)# code an argument here
     answer = false
     array_calls.each do |call|
     if call.length > 4
-      answer = true
+    puts answer = true
       end
     end
     answer
