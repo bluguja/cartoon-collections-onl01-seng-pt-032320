@@ -23,7 +23,7 @@ def summon_captain_planet(veggies)# code an argument here
        ans = true
     end
    end
-    puts ans
+     ans
  end
 
 
