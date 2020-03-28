@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(veggies)
-  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
     veggies.collect do |call| 
     call.capitalize + "!"
 end
